@@ -1,0 +1,12 @@
+body {
+   text-align: center;
+    background: linear-gradient(45deg, red,yellow);
+    font-family: cursive;
+  
+}
+
+#survey-form{
+    background: linear-gradient(60deg,cyan,teal);
+    
+  
+}

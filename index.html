@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <title>Survey Page</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+
+
+</head>
+
+<body>
+    <h1 id="title"><b>Survey Form</b></h1>
+    <p id="description">Tell us what are the different ways to make you happy!</p>
+    <form id="survey-form">
+        <label id="name-label">
+            Name <input type="text" id="name" placeholder="Full name" required type="text"> </label>
+        <br><br>
+        <label id="email-label">
+        Email <input type="email" id="email" placeholder="Email id" required type="email"></label>
+        <br>
+        <br>
+        <label id="number-label">Age <input type="number" id="number" min="13" max="65" placeholder="age" required type="number"></label><br>
+        <br>
+        <label>
+            Who are you? <select id="dropdown">
+  <option value="Hater">Hater</option>
+  <option value="Lover" selected>Lover</option>
+  
+</select><br><br>
+        
+        </label> Tell Us Your Gender<br>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other<br><br> What We Should Do Next?<br>
+        <input type="checkbox" name="variety" value="reseller">Reseller<br>
+        <input type="checkbox" name="variety" value="whole seller">Whole Seller<br>
+        <input type="checkbox" name="variety" value="manufacturer" checked>Manufacturer<br><br>
+
+
+        <textarea id="text-area" placeholder="Type your Suggestion" rows="10" cols="100"></textarea><br><br>
+        <button type="submit" id="submit">Submit</button>
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
